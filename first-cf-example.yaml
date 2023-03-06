@@ -1,0 +1,6 @@
+Resources:
+  MyEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-006dcf34c09e50022
+      InstanceType: t2.micro
